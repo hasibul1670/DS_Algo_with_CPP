@@ -26,5 +26,14 @@ int main()
         temp = temp->next;
     }
 
+    cout << endl << "--------------------------" << endl;
+
+    temp = head;
+    while (temp != NULL) {
+        cout << temp->val << " ";
+        temp = temp->next;
+    }
+
+
     return 0;
 }
