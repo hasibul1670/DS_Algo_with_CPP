@@ -9,15 +9,18 @@ public:
         this->next = NULL;
     }
 };
-
-void insert_node_head(Node* head, int val) {
+void insert_node_head(Node*& head, int val) {
     Node* newNode = new Node(val);
     newNode->next = head;
     head = newNode;
-
-
 }
-
+void printLinkedList(Node* head) {
+    Node* temp = head;
+    while (temp != NULL) {
+        cout << temp->val << " ";
+        temp = temp->next;
+    }
+}
 int main()
 {
     Node* head = new Node(10);
@@ -26,13 +29,13 @@ int main()
 
     head->next = a;
     a->next = b;
-    Node* temp = head;
+
 
     insert_node_head(head, 100);
-    while (temp != NULL) {
-        cout << temp->val << " ";
-        temp = temp->next;
-    }
+    insert_node_head(head, 200);
+    insert_node_head(head, 300);
+    printLinkedList(head);
+
 
 
     return 0;
