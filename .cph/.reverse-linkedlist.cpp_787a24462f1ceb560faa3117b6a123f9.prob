@@ -1,0 +1,1 @@
+{"name":"Local: reverse-linkedlist","url":"e:\\Cpp\\reverse-linkedlist.cpp","tests":[{"id":1743653166838,"input":"10 20 30 -1","output":"30 20 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Cpp\\reverse-linkedlist.cpp","group":"local","local":true}

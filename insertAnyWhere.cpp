@@ -9,16 +9,13 @@ public:
         this->next = NULL;
     }
 };
-void insert_node_head_at_tail(Node*& head, int val) {
+void insert_node_anyWhere(Node*& head, int idx, int val) {
     Node* newNode = new Node(val);
-    if(head==NULL){
-        head = newNode;
-        return 0;
-    }
     Node* temp = head;
-    while (temp->next != NULL) {
+    for (int i = 1;i < idx;i++) {
         temp = temp->next;
     }
+    newNode->next = temp->next;
     temp->next = newNode;
 }
 void printLinkedList(Node* head) {
@@ -36,8 +33,7 @@ int main()
     head->next = a;
     a->next = b;
 
-    insert_node_head_at_tail(head, 40);
-    insert_node_head_at_tail(head, 50);
+    insert_node_anyWhere(head, 3, 63);
     printLinkedList(head);
 
     return 0;

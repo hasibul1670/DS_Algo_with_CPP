@@ -1,0 +1,1 @@
+{"name":"Local: insert-linkedlist","url":"e:\\Cpp\\insert-linkedlist.cpp","tests":[{"id":1743651809685,"input":"10 20 30 -1","output":"10 20 30 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Cpp\\insert-linkedlist.cpp","group":"local","local":true}
