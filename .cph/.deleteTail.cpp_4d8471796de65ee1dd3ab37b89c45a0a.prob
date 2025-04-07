@@ -1,0 +1,1 @@
+{"name":"Local: deleteTail","url":"e:\\Cpp\\deleteTail.cpp","tests":[{"id":1744036877084,"input":"10 20 30 40 -1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Cpp\\deleteTail.cpp","group":"local","local":true}

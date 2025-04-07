@@ -8,7 +8,14 @@
         "algorithm": "cpp",
         "array": "cpp",
         "string": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "fstream": "cpp",
+        "future": "cpp",
+        "optional": "cpp",
+        "shared_mutex": "cpp",
+        "sstream": "cpp",
+        "thread": "cpp",
+        "tuple": "cpp"
     },
     "CodeGPT.apiKey": "CodeGPT Plus Beta",
     "C_Cpp.errorSquiggles": "disabled"

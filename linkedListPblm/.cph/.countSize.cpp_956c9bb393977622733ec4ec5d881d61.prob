@@ -1,1 +1,0 @@
-{"name":"Local: countSize","url":"e:\\Cpp\\linkedListPblm\\countSize.cpp","tests":[{"id":1743683431122,"input":"5 1 4 5 -1","output":"4"},{"id":1743683438418,"input":"2 1 5 3 4 8 9 -1","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Cpp\\linkedListPblm\\countSize.cpp","group":"local","local":true}
