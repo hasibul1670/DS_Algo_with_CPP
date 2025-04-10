@@ -1,0 +1,1 @@
+{"name":"Local: insertHeadDLL","url":"e:\\Cpp\\doublyLinkedList\\insertHeadDLL.cpp","tests":[{"id":1744242800708,"input":"","output":"100 10 20 30"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Cpp\\doublyLinkedList\\insertHeadDLL.cpp","group":"local","local":true}
